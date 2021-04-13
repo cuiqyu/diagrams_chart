@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-13T03:54:38.395Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="kt_lgsIcIc9P6J35Lybk" version="14.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-13T06:36:35.949Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="LRsV80S4JRN6nkF6inlA" version="14.5.8" type="github">
   <diagram id="MH71vCaCVumw8iNY9NFp" name="第 1 页">
-    <mxGraphModel dx="1874" dy="939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -91,14 +91,6 @@
         </mxCell>
         <mxCell id="kjwz391m1cwt_tZnDFxb-40" value="设备品类表" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFB366;spacingTop=0;" vertex="1" parent="kjwz391m1cwt_tZnDFxb-3">
           <mxGeometry x="50" y="340" width="90" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="kjwz391m1cwt_tZnDFxb-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;spacingTop=0;" edge="1" parent="kjwz391m1cwt_tZnDFxb-3" source="kjwz391m1cwt_tZnDFxb-25" target="kjwz391m1cwt_tZnDFxb-32">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="kjwz391m1cwt_tZnDFxb-44" value="默认必须关联&lt;br style=&quot;font-size: 14px;&quot;&gt;一个标准指令集" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;spacingTop=0;" vertex="1" connectable="0" parent="kjwz391m1cwt_tZnDFxb-43">
-          <mxGeometry x="-0.0419" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="kjwz391m1cwt_tZnDFxb-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;spacingTop=0;" edge="1" parent="kjwz391m1cwt_tZnDFxb-3" source="kjwz391m1cwt_tZnDFxb-45" target="kjwz391m1cwt_tZnDFxb-40">
           <mxGeometry relative="1" as="geometry" />
@@ -211,11 +203,20 @@
             <mxPoint x="300" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="kjwz391m1cwt_tZnDFxb-150" value="必须默认&lt;br&gt;关联一个&lt;br&gt;指令集" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="kjwz391m1cwt_tZnDFxb-3" source="kjwz391m1cwt_tZnDFxb-25" target="kjwz391m1cwt_tZnDFxb-147">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kjwz391m1cwt_tZnDFxb-25" value="设备类型表" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#99FF33;spacingTop=0;" vertex="1" parent="kjwz391m1cwt_tZnDFxb-3">
           <mxGeometry x="50" y="90" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="kjwz391m1cwt_tZnDFxb-28" value="设备大类、小类的二级分类树" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=14;spacingTop=0;" vertex="1" parent="kjwz391m1cwt_tZnDFxb-3">
           <mxGeometry x="52.5" y="130" width="85" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kjwz391m1cwt_tZnDFxb-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="kjwz391m1cwt_tZnDFxb-3" source="kjwz391m1cwt_tZnDFxb-147" target="kjwz391m1cwt_tZnDFxb-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kjwz391m1cwt_tZnDFxb-147" value="设备类型&lt;br&gt;指令集表" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#99FF33;spacingTop=0;" vertex="1" parent="kjwz391m1cwt_tZnDFxb-3">
+          <mxGeometry x="210" y="90" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="kjwz391m1cwt_tZnDFxb-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;spacingTop=0;" edge="1" parent="kjwz391m1cwt_tZnDFxb-1" source="kjwz391m1cwt_tZnDFxb-124" target="kjwz391m1cwt_tZnDFxb-8">
           <mxGeometry relative="1" as="geometry" />
